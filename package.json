@@ -1,0 +1,23 @@
+{
+  "name": "anime-catalog-api-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright TypeScript API automation for the Anime Catalog Spring Boot API",
+  "scripts": {
+    "test": "playwright test",
+    "test:dev": "cross-env TEST_ENV=dev playwright test",
+    "test:qa": "cross-env TEST_ENV=qa playwright test",
+    "test:prod": "cross-env TEST_ENV=prod playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.0.0",
+    "cross-env": "^10.0.0",
+    "dotenv": "^17.2.0",
+    "typescript": "^5.9.0"
+  }
+}
