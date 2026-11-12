@@ -1,4 +1,4 @@
-# Anime Catalog API Automation
+# Anime Catalog Playwright API Automation
 
 <p>
 <picture>
