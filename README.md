@@ -1,6 +1,10 @@
 # Anime Catalog API Automation
 
-https://github.com/user-attachments/assets/a18216c3-50d6-4be3-8b9c-00b0a2f6aea5
+<p>
+<picture>
+  <img width="1280" height="720" alt="Anime_Catalog_Playwright_Api_Tests" src="https://github.com/user-attachments/assets/232b408b-9e06-4a12-b9b0-d5dd76f1bd52" />
+</picture>  
+</p>
 
 Playwright + TypeScript API automation project for the Anime Catalog Spring Boot backend. The tests use Playwright's `APIRequestContext` and a Page Object Model-style resource layer: each API resource has its own class that owns its endpoints and request methods.
 
